@@ -2538,6 +2538,17 @@
       gsap.registerPlugin(ScrollTrigger);
 
       // Memory data - replace placeholder images with your actual images and add your captions
+      const memories = [
+        {
+          image: "3.jpg",
+          caption:
+            "Happy Birthday to my best friend in the whole world! Here's to many more adventures together!",
+          isGif: true,
+          rotationAngle: 3,
+          emoji: "🎂",
+        },
+      ];
+
       // Create confetti elements
       function createConfetti() {
         const confettiContainer = document.getElementById("confetti-container");
